@@ -1,14 +1,14 @@
 :host { 
     --main: #383838;
-    --skriftmørk: #141414; /* Fjernet gjennomsiktigheten */
+    --skriftmørk: #141414; 
     --secondary: #676767;
     --skriftlys: #f2f2f2;
     --third: #dddddd;
 }
 
 .vfrc-widget--chat {
-    border-radius: 20px; /* Avrunding av hjørner */
-    border: 2px solid var(--secondary); /* Rosa ramme rundt hele widget-chatvinduet */
+    border-radius: 20px; 
+    border: 2px solid var(--secondary); 
 }
 
 .vfrc-footer {
@@ -27,22 +27,22 @@
     letter-spacing: 0.8px;
     margin-bottom: 16px;
     line-height: 1.2;
-    color: var(--skriftlys); /* Gjør tittelen lys for synlighet på mørk bakgrunn */
-}
+    color: var(--skriftlys); 
+
 .vfrc-header {
     background: linear-gradient(90deg, var(--main), var(--secondary));
     border-bottom: 0.6px solid var(--third);
     box-shadow: none;
 }
 .vfrc-system-response .vfrc-message {
-    background-color: var(--main); /* Bakgrunnsfarge for systemmeldinger */
+    background-color: var(--main); 
     color: var(--skriftlys); /* Lys tekst */
     border-radius: 12px;
 }
 
 .vfrc-user-response .vfrc-message {
-    background-color: var(--secondary); /* Bakgrunnsfarge for brukermeldinger */
-    color: var(--skriftlys); /* Lys tekst */
+    background-color: var(--secondary); 
+    color: var(--skriftlys); 
     border-radius: 12px;
 }
 .vfrc-button {
