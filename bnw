@@ -1,0 +1,52 @@
+:host { 
+    --main: #383838;
+    --skriftmørk: #141414; /* Fjernet gjennomsiktigheten */
+    --secondary: #676767;
+    --skriftlys: #f2f2f2;
+    --third: #dddddd;
+}
+
+.vfrc-widget--chat {
+    border-radius: 20px; /* Avrunding av hjørner */
+    border: 2px solid var(--secondary); /* Rosa ramme rundt hele widget-chatvinduet */
+}
+
+.vfrc-footer {
+    background-color: var(--third);
+    border-top: 0.6px solid var(--secondary);
+    border-radius: 0px;
+}
+
+.vfrc-header--title {
+    margin: 7px;
+    letter-spacing: 0.6px;
+    font-family: 'Avenir', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    margin-bottom: 16px;
+    line-height: 1.2;
+    color: var(--skriftlys); /* Gjør tittelen lys for synlighet på mørk bakgrunn */
+}
+.vfrc-header {
+    background: linear-gradient(90deg, var(--main), var(--secondary));
+    border-bottom: 0.6px solid var(--third);
+    box-shadow: none;
+}
+.vfrc-system-response .vfrc-message {
+    background-color: var(--main); /* Bakgrunnsfarge for systemmeldinger */
+    color: var(--skriftlys); /* Lys tekst */
+    border-radius: 12px;
+}
+
+.vfrc-user-response .vfrc-message {
+    background-color: var(--secondary); /* Bakgrunnsfarge for brukermeldinger */
+    color: var(--skriftlys); /* Lys tekst */
+    border-radius: 12px;
+}
+.vfrc-button {
+background: linear-gradient(270deg,var(--secondary),var(--main));
+border: 2px solid var(--third);
+color: var(--skriftlys);
+}
